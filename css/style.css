@@ -1,6 +1,7 @@
 /*******************************/
 /********* General CSS *********/
-/*******************************/
+/***************
+    outline: none;****************/
 body {
     color: #797979;
     background: #ffffff;
@@ -25,7 +26,6 @@ a:hover,
 a:active,
 a:focus {
     color: #D5B981;
-    outline: none;
     text-decoration: none;
 }
 
@@ -253,7 +253,7 @@ a:focus {
     width: 100%;
     margin-bottom: 45px;
     height: calc(100vh - 60px);
-    background: #D5B981;
+    background: #D5B981; /*  todo   NICO ACA SE CAMBIA EL COLOR DE LA PERSONA  */
     overflow: hidden;
 }
 
